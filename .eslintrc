@@ -1,0 +1,41 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "extends": [
+    "airbnb-base"
+  ],
+  "rules": {
+    "indent": [
+      2,
+      "tab"
+    ],
+    "no-tabs": 0,
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "max-len": [
+      2,
+      190,
+      4
+    ],
+    "no-console": 0,
+    "linebreak-style": 0,
+    "global-require": 0,
+    "eslint linebreak-style": [
+      0,
+      "error",
+      "windows"
+    ],
+    "radix": 0,
+    "class-methods-use-this": 0
+  }
+}
