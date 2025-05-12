@@ -26,7 +26,7 @@ export default fp(async function swaggerPlugin(fastify: FastifyInstance) {
                     Authorization: [],
                 },
             ],
-            host: '127.0.0.1:8085',
+            host: ['127.0.0.1:8085','api.nodems.io'],
             schemes: [  'http','https'],
             consumes: ['application/json'],
             produces: ['application/json'],
