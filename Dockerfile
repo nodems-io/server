@@ -2,10 +2,8 @@ FROM node:18.17.0 AS build
 
 WORKDIR /app
 
-COPY .npmrc .npmrc
 COPY package*.json ./
 RUN npm install
-
 
 COPY . .
 
